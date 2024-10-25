@@ -1,0 +1,9 @@
+def dostat(k, n, zh):
+    sv = k - n
+    if sv >= zh:
+        return 0  
+    else:
+        return zh - sv  
+
+print(dostat(50, 30, 20)) 
+print(dostat(50, 30, 25))  
