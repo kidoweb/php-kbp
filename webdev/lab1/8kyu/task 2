@@ -1,0 +1,3 @@
+def k_sum(ch):
+    return sum(x ** 2 for x in ch)
+print(k_sum([1, 2, 2]))  
