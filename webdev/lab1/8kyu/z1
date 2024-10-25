@@ -1,7 +1,0 @@
-def remove_every_second_element(input_list):
-    return input_list[::2]
-
-input_list = ["Keep", "Remove", "Keep", "Remove", "Keep"]
-filtered_list = remove_every_second_element(input_list)
-
-print("Filtered List:", filtered_list)
