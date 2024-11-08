@@ -1,0 +1,7 @@
+def disemvowel(text):
+    vowels = "aeiouAEIOU"
+    return ''.join([char for char in text if char not in vowels])
+
+example_text = "This website is for losers LOL!"
+result = disemvowel(example_text)
+print(result)  
